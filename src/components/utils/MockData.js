@@ -1,7 +1,7 @@
 export const HeadphoneData = [
     {
       id: 1,
-      image: "https://i.pinimg.com/736x/12/a9/59/12a9594fa422f92c6eb5953cbc5f12b4.jpg",
+      image: "https://themes.envytheme.com/fixo/wp-content/uploads/2023/11/banner-1.webp",
       title: "Apple AirPods Wireless Over-Ear Headphones",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",
@@ -21,7 +21,7 @@ export const HeadphoneData = [
     },
     {
       id: 3,
-      image: "https://i.pinimg.com/736x/ab/50/48/ab5048b6e8a9d257e94d4e2271ef3a78.jpg",
+      image: "https://themes.envytheme.com/fixo/wp-content/uploads/2024/06/banner.png",
       title: "Apple AirPods Pro Wireless Over-Ear Headphones",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",

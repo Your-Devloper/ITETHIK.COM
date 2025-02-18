@@ -28,12 +28,12 @@ const App = () => {
         backgroundImage: `radial-gradient(circle, ${activeData.bgColor} 0%, ${activeData.bgColor} 0%)`,
       }}
       animate={{
-        backgroundImage: `radial-gradient(circle, ${activeData.bgColor} 0%, ${activeData.bgColor} 100%)`,
+        backgroundImage: `radial-gradient(circle, ${activeData.bgColor}aa 0%, ${activeData.bgColor} 100%)`,
       }}
       transition={{ duration: 0.8 }}
       className="text-white"
     >
-      {/* <Navbar /> */}
+
       <div className="container grid grid-cols-1 md:grid-cols-2 h-screen md:h-[700px] relative">
         {/* headphone info section */}
         <div className="container grid grid-cols-1 md:grid-cols-2  pl-20 h-screen md:h-[700px] relative">
