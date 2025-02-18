@@ -10,13 +10,13 @@ export default function CustomCarousel() {
     )
 
     return (
-        <div className='w-full h-screen flex justify-center items-center'>
-            <Carousel className="w-full h-max mt-16" plugins={[plugin.current]}>
+        <div className='w-full h-screen flex justify-center items-center -mt-16'>
+            <Carousel className="w-full h-max" plugins={[plugin.current]}>
                 <CarouselContent>
 
                     <CarouselItem>
                         <Card className={'w-full h-full border-none shadow-none'}>
-                            <CardContent className="flex aspect-square items-center justify-center p-6 ">
+                            <CardContent className="flex aspect-square items-center justify-center p-6">
                                 <img src="https://i.pinimg.com/originals/a9/06/67/a90667f0d5a9adb6b73ab9163e7f7ef3.gif" className="w-full h-full object-cover rounded-lg" />
                             </CardContent>
                         </Card>

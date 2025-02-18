@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Stats from './components/Stats';
-import OurSolutions from './components/OurSolutions';
+import { Outlet } from 'react-router-dom';
+import { Header, Footer } from '@/components';
+import { ThemeProvider } from '@/components/utils/theme-provider';
 
 function App() {
 
   return (
-    <div className='flex flex-col'>
+    <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
       <Header />
-      <Stats />
-      <OurSolutions />
-    </div>
+      <Outlet />
+      <Footer />
+    </ThemeProvider>
   )
 }
 

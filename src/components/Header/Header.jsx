@@ -1,27 +1,13 @@
-import React from 'react'
-import LeftSidebar from './LeftSidebar'
-import HeaderContent from './HeaderContent'
-import RightSidebar from './RightSidebar'
-import CustomCarousel from './CustomCarousel'
+import Logo from '../utils/Logo';
+import ExtraBtnIcons from './Navbar/ExtraBtnIcons';
+import Navbar from './Navbar/Navbar';
 
-const Header = () => {
-  return (
-    <div className="flex justify-between">
-    
-    {/* LEFT SIDE */} 
-    <div className='flex w-1/2 justify-between'>
-      <LeftSidebar />
-      <HeaderContent />
-    </div>
-
-    {/* RIGHT SIDE */}
-    <div className="flex w-1/2 h-screen justify-between items-center">
-      <CustomCarousel />
-      <RightSidebar />
-    </div>
-
-  </div>
-  )
+export default function Header() {
+	return (
+		<header className='container mx-auto flex items-center justify-between px-16 py-5 border-b'>
+			<Logo />
+			<Navbar />
+			<ExtraBtnIcons />
+		</header>
+	);
 }
-
-export default Header
